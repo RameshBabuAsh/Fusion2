@@ -364,6 +364,7 @@ def profile(request, username=None):
                'project_reall':project_reall
 
                }
+    print()
     return render(request, 'eisModulenew/profile.html', context)
 
 # Dean RSPC Profile
